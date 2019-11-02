@@ -20,6 +20,23 @@ The schema was horrendous, and I knew this when I started coding at the time. Ho
 
 | DAY | DATE       | USER | DEPT | 1_1  | 2_1  | 3_1  | ..._1 | 10_1 | 1_2 | 2_2 | ...  | 10_7 |
 |-----|------------|------|------|------|------|------|-------|------|-----|-----|------|------|
-| TUE | 12/11/2006 | 123  | 45   | NULL | NULL | NULL | NULL  | NULL | A   | A   | NULL | NULL |
+| TUE | 12/09/2006 | 123  | 45   | NULL | NULL | NULL | NULL  | NULL | A   | A   | NULL | NULL |
 
-That's the schema with an example row. Ew! `2_1` represented 'Period 2, Day 1', with Day 1 being a Sunday, and Day 7 being the following Saturday. The system supported 10 periods in a day. When a member of staff was absent for a particular period, the corresponding entry would be set to `'A'`. Disgusting approach. Thankfully, I fixed that with PleaseTakes 2.
+That's the schema with an example row. Ew! `2_1` represented 'Period 2, Day 1', with Day 1 being a Sunday, and Day 7 being the following Saturday. The system supported 10 periods in a day. When a member of staff was absent for a particular period, the corresponding entry would be set to `'A'`. Disgusting approach. And with this approach, you'd need to clear the database every week... Thankfully, I fixed that with PleaseTakes 2.
+
+`Cover`
+
+| FOR | COVERING | DAY | DAYDATE    | PERIOD | OCOVER |
+|-----|----------|-----|------------|--------|--------|
+| 123 | 456      | TUE | 12/09/2006 | 2      | NULL   |
+
+This table records the members of staff who covered a class. Continuing the example from the `Attendance` table above, teacher `123` is absent period 2 on Tuesday, 12/09/2006. Teacher `456` covers their class. `OCOVER` would be set a value if external cover had been arranged; i.e. not from a teacher contracted to the school.
+
+`Departments`
+
+| ID | SHORT     | FULL        | DEPTID |
+|----|-----------|-------------|--------|
+| 10 | Maths     | Mathematics | 3      |
+| 11 | Computing | Computing   | 17     |
+
+A simple table representing all the different departments within the school. The idea here was to check to see if teachers in the absent teacher's department were free; these would be favoured for obvious reasons. Interesting how I didn't fully understand primary keys at the time; for some reason, I decided to introduce a further `DEPTID` field, when the `ID` field would have sufficed...
