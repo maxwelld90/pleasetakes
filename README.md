@@ -8,10 +8,10 @@ The system was used until August 2010, when I replaced it with PleaseTakes 2. Yo
 It's ancient. It's useless. But I wanted to put up an archived repository to show the world that *I can code*, and by looking at later repositories, you'll see how my ability to code evolved and improved.
 
 ## Lack of Databases
-I haven't included any database files in this repository for obvious reasons. I wrote a README file in the `pt/modules/db` directory that provides the basic schemas that I used. They were horrible and ill-thought out. But then again, I had no idea how to do better at the time. It's a miracle this worked at all.
+I haven't included any database files in this repository for obvious reasons. I wrote a [separate README file]((https://github.com/maxwelld90/pleasetakes/tree/master/pt/modules/db)) that provides information on the basic schemas that I used. They were horrible and ill-thought out. But then again, I had no idea how to do better at the time. It's a miracle this worked at all.
 
 ## Technologies Used
-This was developed using ancient technologies, too. I hadn't quite grasped object-orientated programming at this stage (that came in 2009 at university, when I was taught Java and object-orientated concepts by [Rob Irving](http://www.dcs.gla.ac.uk/~rwi/) -- probably the course I have learnt the most from during my time on this earth), so I resorted to old-school VBScript.
+This was developed using ancient technologies, too. I hadn't quite grasped object-orientated programming at this stage (that came in 2009 at university, when I was taught Java and object-orientated programming concepts (probably the course I have learnt the most from during my time on this earth), so I resorted to old-school VBScript.
 
 * Microsoft Internet Information Services (IIS) server, version 6.0
 * Microsoft Active Server Pages (Active Server Pages), version 3.0
