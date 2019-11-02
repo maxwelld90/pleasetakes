@@ -1,0 +1,1 @@
+<%if session("sess_adminlevel") <> 1 then response.redirect "default.asp?err=1" %>

@@ -1,0 +1,1 @@
+<%if session("sess_loggedina") = False then response.redirect "/pt/default.asp?id=6"%>

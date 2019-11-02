@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Server-ML.co.uk PleaseTakes Version 1 XML Settings File
+Copyright (c) Server-ML.co.uk 2006
+-->
+<settings>
+	<main>
+		<ptitle>PleaseTakes :: Mearns Castle High School</ptitle>
+		<name>PleaseTakes</name>
+		<version>0.84</version>
+		<est short="MCHS" logimg="logo.png" stdimg="std">Mearns Castle High School</est>
+		<enabled entire="1" signup="0" pin="0" weekends="0" firstlogin="0" firstloginacc="setup"/>
+		<timezone>GMT</timezone>
+		<usernames std="Teacher" admin="Admin"/>
+		<backup time="14" mostrecent="05/07/2006"/>
+		<periods maximum="10"/>
+		<email domain1="mearnscastle.e-renfrew.sch.uk"/>
+	</main>
+	<login>
+		<comment>Its Up!!</comment>
+		<menuitems>
+			<item text="Server-ML Home" title="Click To Go To The Server-ML.co.uk Homepage." href="http://www.server-ml.co.uk/"/>
+		</menuitems>
+	</login>
+</settings>

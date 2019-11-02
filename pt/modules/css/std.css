@@ -1,0 +1,431 @@
+/* Server-ML.co.uk PleaseTakes Version 1 */
+/* Standard User Section CSS Scheme File */
+/* Copyright (c) Server-ML.co.uk 2006 */
+
+body
+	{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+	color: #4D6582;
+	cursor: default;
+	text-align: center;
+	background-color: #FFF;
+	}
+
+.main
+	{
+	width: 770px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	}
+
+form
+	{
+	margin: 0px;
+	padding: 0px;
+	}
+
+a:link, A:visited, A:active { color: #FB4A37; text-decoration: none; }
+a:hover { color: #597CD9; }
+
+.l_l A:link, .l_l A:visited, .l_l A:active { color: #D9E2FF; text-decoration: none; font-weight: bold; }
+.l_l A:hover { color: #FFE4D2; font-weight: bold; }
+
+.smlb_b
+	{
+	height: 28px;
+	background-image: url('../../media/std/smlb_b.png');
+	background-repeat: repeat-x;
+	}
+
+	.smlb_k
+		{
+		width: 15px;
+		height: 28px;
+		position: absolute;
+		top: -111px;
+		background-image: url('../../media/std/smlb_k.png');
+		background-repeat: no-repeat
+		}
+
+	.smlb_l
+		{
+		position: relative;
+		bottom: 105px;
+		left: 18px;
+		font-family: Tahoma,Sans-Serif;
+		font-size: 8pt;
+		color: #FFF;
+		}
+
+	.smlb_r
+		{
+		float: right;
+		position: relative;
+		bottom: 118px;
+		font-family: Tahoma,Sans-Serif;
+		font-weight: bold;
+		font-size: 8pt;
+		color: #FFF;
+		}
+
+		.smlb_r ul
+			{
+			margin: 0px;
+			padding: 0px;
+			}
+
+		.smlb_r li
+			{
+			display: inline;
+			}
+
+		.smlb_r li a:link, .smlb_r li a:visited, .smlb_r li a:active
+			{
+			color: #D9E2FF;
+			text-decoration: none;
+			}
+
+		.smlb_r li a:hover
+			{
+			color: #FBDED7;
+			}
+
+.topb_b
+	{
+	height: 83px;
+	background-image: url('../../media/std/topb_b.png');
+	background-repeat: repeat-x;
+	}
+
+	.topb_t
+		{
+		position: absolute;
+		top: -84px;
+		left: -3px;
+		font-size: 34pt;
+		font-weight: bold;
+		color: #4D6582;
+		letter-spacing: -5px;
+		}
+
+	.topb_dt
+		{
+		position: absolute;
+		top: -76px;
+		right: 0px;
+		font-size: 10pt;
+		letter-spacing: -1px;
+		}
+
+	.topb_m
+		{
+		position: absolute;
+		top: -27px;
+		width: 100%;
+		height: 21px;
+		line-height: 20px;
+		font-size: 10pt;
+		letter-spacing: -1px;
+		}
+
+		.topb_m ul
+			{
+			margin: 0px;
+			padding: 0px;
+			}
+
+		.topb_m li
+			{
+			display: inline;
+			}
+
+		.topb_m li a:link, .topb_m li a:visited, .topb_m li a:active
+			{
+			text-decoration: none;
+			}
+
+		.topb_m li a:hover
+			{
+			}
+
+.m_l
+	{
+	position: absolute;
+	top: -4px;
+	width: 550px;
+	padding-top: 10px;
+	}
+
+	.m_l_title
+		{
+		font-size: 22pt;
+		font-weight: bold;
+		letter-spacing: -2px;
+		color: #4D6582;
+		}
+
+		.m_l_subtitle
+			{
+			position: absolute;
+			left: 20px;
+			top: 40px;
+			font-size: 14pt;
+			font-weight: bold;
+			letter-spacing: -1px;
+			color: #4D6582;
+			}
+
+		.m_l_ins
+			{
+			position: absolute;
+			top: 70px;
+			width: 100%;
+			font-weight: bold;
+			border-bottom: 1px dashed #4D6582;
+			}
+
+.m_r
+	{
+	position: absolute;
+	right: 0px;
+	top: -4px;
+	width: 210px;
+	padding-top: 10px;
+	border-left: 2px solid #4D6582;
+	background-color: #DCE2F3;
+	background-image: url('../../media/std/m_r_b.png');
+	background-repeat: repeat-x;
+	}
+
+	.m_r2
+		{
+		padding: 0px 5px 0px 5px;
+		font-size: 10pt;
+		text-align: right;
+		}
+
+		.m_r_ti
+			{
+			padding-bottom: 3px;
+			border-bottom: 1px dashed #4D6582;
+			font-family: Tahoma,Sans-Serif;
+			font-size: 10pt;
+			font-weight: bold;
+			}
+
+		.m_r_t
+			{
+			padding: 5px 0px 5px 0px;
+			font-family: Tahoma,Sans-Serif;
+			font-size: 8pt;
+			line-height: 15px;
+			}
+			
+
+.m_l_sel
+	{
+	position: absolute;
+	top: 103px;
+	font-size: 10pt;
+	}
+
+	.m_l_sel_t
+		{
+		width: 100%;
+		}
+
+		.m_l_sel_t_l
+			{
+			width: 48px;
+			height: 48px;
+			padding-right: 10px;
+			}
+
+		.m_l_sel_t_r
+			{
+			height: 48px;
+			font-size: 12pt;
+			font-weight: bold;
+			letter-spacing: -1px;
+			}
+
+		.m_l_sel_sep
+			{
+			height: 10px;
+			}
+
+		.m_l_list_p
+			{
+			height: 26px;
+			width: 16px;
+			padding-left: 4px;
+			padding-right: 4px;
+			}
+
+		.m_l_list_t
+			{
+			font-family: Tahoma,Sans-Serif;
+			font-size: 10pt;
+			}
+
+		.m_l_list_b
+			{
+			background-color: #D9E0F4;
+			}
+
+	.m_l_tt
+		{
+		border: 1px solid #4E6DDC;
+		border-collapse: collapse;
+		}
+
+		.m_l_tt_td
+			{
+			width: 69px;
+			height: 45px;
+			border: 1px solid #4E6DDC;
+			background-color: #CBDDFE;
+			font-family: 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+			font-size: 10pt;
+			font-weight: bold;
+			text-align: center;
+			}
+
+	.m_l_tt_p
+		{
+		width: 100%;
+		border: 1px solid #000;
+		border-collapse: collapse;
+		}
+
+		.m_l_tt_td_p
+			{
+			width: 81px;
+			height: 52px;
+			border: 1px solid #000;
+			color: #000;
+			font-family: 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+			font-size: 10pt;
+			font-weight: bold;
+			text-align: center;
+			}
+
+		.m_l_order
+			{
+			padding: 0px 5px 0px 5px;
+			}
+
+	.botopts ul
+		{
+		margin: 0px;
+		padding: 10px;
+		list-style-type: none;
+		font-size: 12pt;
+		}
+
+.b_std
+	{
+	font-family: 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+	font-size: 10pt;
+	color: #36F;
+	background-color: #FFF;
+	border: 1px solid #7F9DB9;
+	padding: 1px;
+	}
+
+.b_pwd
+	{
+	font-family: 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+	font-size: 10pt;
+	color: #F60;
+	background-color: #FFF;
+	border: 1px solid #7F9DB9;
+	padding: 1px;
+	}
+
+.b
+	{
+	height: 27px;
+	font-family: 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+	font-size: 10pt;
+	}
+	
+
+.rep_slip
+	{
+	width: 100%;
+	height: 180px;
+	background-color: #C4DDFD;
+	border: 1px solid #4E6DDC;
+	}
+
+	.rep_slip_c
+		{
+		padding: 5px;
+		}
+
+	.rep_slip_b
+		{
+		width: 100%;
+		height: 142px;
+		position: relative;
+		top: 5px;
+		font-family: Tahoma,Sans-Serif;
+		overflow: hidden;
+		}
+
+	.rep_slip_t
+		{
+		font-family: Tahoma,Sans-Serif;
+		font-size: 10pt;
+		}
+
+.rep_slip_p
+	{
+	width: 100%;
+	height: 180px;
+	}
+
+	.rep_slip_c_p
+		{
+		padding: 5px;
+		}
+
+	.rep_slip_b_p
+		{
+		width: 100%;
+		height: 142px;
+		position: relative;
+		top: 5px;
+		font-family: Tahoma,Sans-Serif;
+		overflow: hidden;
+		}
+
+	.rep_slip_t_p
+		{
+		font-family: Tahoma,Sans-Serif;
+		font-size: 10pt;
+		}
+
+.rep_week_t
+	{
+	height: 26px;
+	padding: 0px 5px 0px 5px;
+	text-align: center;
+	}
+
+.m_l_middletitle
+	{
+	width: 100%;
+	padding-left: 4px;
+	line-height: 28px;
+	background-color: #AAD0FB;
+	border-bottom: 1px solid #0062CE;
+	font-size: 14pt;
+	font-weight: bold;
+	letter-spacing: -1px;
+	}
